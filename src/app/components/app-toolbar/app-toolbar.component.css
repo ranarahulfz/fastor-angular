@@ -1,5 +1,14 @@
 #app-logo {
   margin-left: 40px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#app-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 .fill-remaining-space {
@@ -19,7 +28,9 @@
 .sub-menu-items a {
   text-decoration: none;
   display: block;
-  color: rgba(0,0,0,.87);
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 .sub-menu-items a:hover {

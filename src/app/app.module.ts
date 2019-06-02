@@ -11,13 +11,17 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { AppBannerComponent } from './components/app-banner/app-banner.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     AppHeaderComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    AppBannerComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,9 @@ import { AppFooterComponent } from './components/app-footer/app-footer.component
     MatToolbarModule,
     MatButtonModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

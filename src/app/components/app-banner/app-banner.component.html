@@ -1,17 +1,36 @@
+<!--App banner-->
 <div id="banner" class="app-banner">
+
+  <!--App banner container-->
   <div class="app-banner-container">
+
     <div style="width:0"></div>
+
+    <!--Homepage banner-->
     <div id="homepage-banner" class="app-homepage-banner">
+
+      <!--Homepage background-->
       <div id="homepage-background" class="app-homepage-background"></div>
+      <!--End of homepage background-->
+
+      <!--Homepage banner wrapper-->
       <div class="app-homepage-banner-wrapper">
+
+        <!--Banner image container-->
         <div class="homepage-image-container">
           <div class="city-image-container"></div>
           <h2 class="homepage-hero-title">
             <span>Shop curated brands and city essentials, all in one place</span>
           </h2>
-          <button mat-raised-button class="md-button md-icon-button header-icon theme-chooser-toggle md-button md-ink-ripple" type="button" ng-transclude="" md-button="" ng-click="themeChooser.toggle(true)" aria-label="Change background color" title="Change background color">
-            <svg viewBox="0 0 20 20" width="15px" color="white" name="location-filled" fill="currentColor" class="base__BaseStyledComponent-sc-1l64hnd-0 base__Svg-sc-1l64hnd-4 icon__Icon-sc-1bl0yf2-0 jnhXta">
-              <path d="M7.8,6.4c0,0.8-0.6,1.4-1.4,1.4C5.6,7.8,5,7.2,5,6.4S5.6,5,6.4,5C7.2,5,7.8,5.6,7.8,6.4 M6.1,0C1.9,0,0,3.1,0,6.2c0,1.2,0.5,2.3,1,3.4L1,9.7L6.1,18l5-8.2l0-0.1c0.5-1.1,1.1-2.3,1.1-3.5C12.3,3.2,10.4,0,6.1,0" pointer-events="none"></path>
+          <button mat-raised-button
+                  class="md-button md-icon-button header-icon theme-chooser-toggle md-button md-ink-ripple"
+                  type="button" ng-transclude="" md-button="" ng-click="themeChooser.toggle(true)"
+                  aria-label="Change background color" title="Change background color">
+            <svg viewBox="0 0 20 20" width="15px" color="white" name="location-filled" fill="currentColor"
+                 class="base__BaseStyledComponent-sc-1l64hnd-0 base__Svg-sc-1l64hnd-4 icon__Icon-sc-1bl0yf2-0 jnhXta">
+              <path
+                d="M7.8,6.4c0,0.8-0.6,1.4-1.4,1.4C5.6,7.8,5,7.2,5,6.4S5.6,5,6.4,5C7.2,5,7.8,5.6,7.8,6.4 M6.1,0C1.9,0,0,3.1,0,6.2c0,1.2,0.5,2.3,1,3.4L1,9.7L6.1,18l5-8.2l0-0.1c0.5-1.1,1.1-2.3,1.1-3.5C12.3,3.2,10.4,0,6.1,0"
+                pointer-events="none"></path>
             </svg>
             <span>
               Enter Your
@@ -19,52 +38,204 @@
             </span>
           </button>
         </div>
-        <div class="homepage-category">
-          <div class="homepage-category-container">
-            <mat-grid-list cols="5" rowHeight="2:1">
-              <mat-grid-tile>
-                <div class="fruits">
-                  <mat-card>
-                    <a href="" class="fruits-category-link">
-                      <div class="fruits-hover-border-box"></div>
-                      <div class="fruits-main-box">
-                        <div class="fruits-main-title"></div>
-                        <div class="fruits-blank"></div>
-                        <span class="fruits-main-content">
-                          <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3">
-                            Complete your space with modern furniture and decor.
-                          </div>
-                        </span>
-                      </div>
-                      <div class="fruits-image-box"></div>
-                    </a>
-                  </mat-card>
-                </div>
-              </mat-grid-tile>
-              <mat-grid-tile>
-                <div class="vegitables">
+        <!--End banner image container-->
 
-                </div>
-              </mat-grid-tile>
-              <mat-grid-tile>
-                <div class="organic-fruits">
+        <!--Homepage category card-->
+        <div class="homepage-banner-category">
 
-                </div>
-              </mat-grid-tile>
-              <mat-grid-tile>
-                <div class="organic-vegitables">
+          <!--Banner category card container-->
+          <div class="homepage-banner-category-container">
 
+            <!--First category card-->
+            <div class="category-card">
+              <a class="card-container" href="">
+                <div class="card-hover-border-box"></div>
+                <div class="card-text-box-container">
+                  <div class="card-title">
+                    <div class="card-title-container">
+                      <h3 class="card-title-header">
+                        <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2"
+                             class="card-header-wrapper">
+                          Fruits
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-hidden-box"></div>
+                  <span class="card-content-text">
+                    <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3">
+                      Complete your space with modern furniture and decor.
+                    </div>
+                  </span>
                 </div>
-              </mat-grid-tile>
-              <mat-grid-tile>
-                <div class="featured-shop">
+                <div class="card-image-container">
+                  <img
+                    src="https://cmsimages.jetcdn.net/dfw/8374fc7d-4e19/k2-_ada1b2f1-f568-454c-854f-1d4916c0ab68.v1.png?odnBound=480"
+                    alt="img-fruit"
+                    class="card-image"
+                    sizes="(max-width: 767px) 112px, (max-width: 1024px) 175px, 240px">
+                </div>
+              </a>
+            </div>
+            <!--End of category first card-->
 
+            <!--Second category card-->
+            <div class="category-card">
+              <a class="card-container" href="">
+                <div class="card-hover-border-box"></div>
+                <div class="card-text-box-container">
+                  <div class="card-title">
+                    <div class="card-title-container">
+                      <h3 class="card-title-header">
+                        <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2"
+                             class="card-header-wrapper">
+                          Vegitables
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-hidden-box"></div>
+                  <span class="card-content-text">
+                    <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3">
+                      Refresh your spring wardrobe with the latest trends.
+                    </div>
+                  </span>
                 </div>
-              </mat-grid-tile>
-            </mat-grid-list>
+                <div class="card-image-container">
+                  <img
+                    src="https://cmsimages.jetcdn.net/dfw/8374fc7d-7000/k2-_abdd756a-dcab-4710-9584-d1b52c151d88.v1.png?odnBound=480"
+                    alt="img-fruit"
+                    class="card-image"
+                    sizes="(max-width: 767px) 112px, (max-width: 1024px) 175px, 240px">
+                </div>
+              </a>
+            </div>
+            <!--End of second category card-->
+
+            <!--Third category card-->
+            <div class="category-card">
+              <a class="card-container" href="">
+                <div class="card-hover-border-box"></div>
+                <div class="card-text-box-container">
+                  <div class="card-title">
+                    <div class="card-title-container">
+                      <h3 class="card-title-header">
+                        <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2"
+                             class="card-header-wrapper">
+                          Organic Fruits
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-hidden-box"></div>
+                  <span class="card-content-text">
+                    <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3">
+                      Find new looks and favorite brands just in time for summer.
+                    </div>
+                  </span>
+                </div>
+                <div class="card-image-container">
+                  <img
+                    src="https://cmsimages.jetcdn.net/dfw/8374fc7d-f8b6/k2-_708f5a8f-5d9a-4c11-a77f-fb4fa72596c2.v1.png?odnBound=480"
+                    alt="img-fruit"
+                    class="card-image"
+                    sizes="(max-width: 767px) 112px, (max-width: 1024px) 175px, 240px">
+                </div>
+              </a>
+            </div>
+            <!--End of third category card-->
+
+            <!--Fourth category card-->
+            <div class="category-card">
+              <a class="card-container" href="">
+                <div class="card-hover-border-box"></div>
+                <div class="card-text-box-container">
+                  <div class="card-title">
+                    <div class="card-title-container">
+                      <h3 class="card-title-header">
+                        <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2"
+                             class="card-header-wrapper">
+                          Organic Veggy
+                        </div>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-hidden-box"></div>
+                  <span class="card-content-text">
+                    <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3">
+                      From snacks to essentials, find your favorites.
+                    </div>
+                  </span>
+                </div>
+                <div class="card-image-container">
+                  <img
+                    src="https://cmsimages.jetcdn.net/dfw/8374fc7d-a69d/k2-_70acd0d9-25ba-4d63-b26e-d6492fb35105.v1.png?odnBound=480"
+                    alt="img-fruit"
+                    class="card-image"
+                    sizes="(max-width: 767px) 112px, (max-width: 1024px) 175px, 240px">
+                </div>
+              </a>
+            </div>
+            <!--End of fourth category card-->
+
+            <!--Featured shop-->
+            <div class="category-card featured-shop">
+              <div class="featured-shop-container" href="">
+                <h3 class="featured-shop-header">
+                  <div style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2"
+                       class="card-header-wrapper">
+                    Featured Shop
+                  </div>
+                </h3>
+                <div class="featured-shop-links-containers">
+                  <a class="first-link" color="charcoal" display="inline-flex" font-size="legal,heading5" href="/c/deals/33000000?experienceId=21" order="1" target="_self">
+                    Deals &amp; Promotions
+                    <svg viewBox="0 0 20 20" width="16px" fill="charcoal" name="caret-right">
+                      <path d="M13.71,11.48L6.3,18.89,4.82,17.41,12.23,10,4.81,2.59,6.29,1.11l7.42,7.41L15.19,10Z" pointer-events="none"></path>
+                    </svg>
+                  </a>
+                  <a class="second-link" color="charcoal" display="inline-flex" font-size="legal,heading5" href="/c/beauty/2454290113?experienceId=27" order="3" target="_self">
+                    Spring Beauty
+                    <svg viewBox="0 0 20 20" width="16px" fill="charcoal" name="caret-right">
+                      <path d="M13.71,11.48L6.3,18.89,4.82,17.41,12.23,10,4.81,2.59,6.29,1.11l7.42,7.41L15.19,10Z" pointer-events="none"></path>
+                    </svg>
+                  </a>
+                  <a class="third-link" color="charcoal" display="inline-flex" font-size="legal,heading5" href="/c/brands/adidas/45900350?experienceId=24" order="5" target="_self">
+                    New From adidas
+                    <svg viewBox="0 0 20 20" width="16px" fill="charcoal" name="caret-right">
+                      <path d="M13.71,11.48L6.3,18.89,4.82,17.41,12.23,10,4.81,2.59,6.29,1.11l7.42,7.41L15.19,10Z" pointer-events="none"></path>
+                    </svg>
+                  </a>
+                  <a class="fifth-link" color="charcoal" display="inline-flex" font-size="legal,heading5" href="/c/pantry-and-household/clean-living-shop/household-supplies/42900001?experienceId=23" order="4" target="_self">
+                    Clean Living
+                    <svg viewBox="0 0 20 20" width="16px" fill="charcoal" name="caret-right" >
+                      <path d="M13.71,11.48L6.3,18.89,4.82,17.41,12.23,10,4.81,2.59,6.29,1.11l7.42,7.41L15.19,10Z" pointer-events="none"></path>
+                    </svg></a>
+                  <a class="sixth-link" color="charcoal" display="inline-flex" font-size="legal,heading5" href="/c/deals/spring-clearance/9335276618?experienceId=21" order="6" target="_self">
+                    Spring Clearance
+                    <svg viewBox="0 0 20 20" width="16px" fill="charcoal" name="caret-right">
+                      <path d="M13.71,11.48L6.3,18.89,4.82,17.41,12.23,10,4.81,2.59,6.29,1.11l7.42,7.41L15.19,10Z" pointer-events="none"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--End of featured shop-->
+
           </div>
+          <!--End banner category card container-->
+
         </div>
+        <!--End banner category card-->
+
       </div>
+      <!--End homepage banner wrapper-->
+
     </div>
+    <!--End of homepage banner-->
+
   </div>
+  <!--End of app banner container-->
+
 </div>
+<!--End of app banner-->
